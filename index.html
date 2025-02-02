@@ -54,7 +54,7 @@
 
 </head>
 
-<body>
+<body class="box-border">
     <header>
         <nav class="bg-third-main py-6">
             <div class="main-container flex items-center justify-between">
@@ -124,10 +124,11 @@
     </header>
     <main>
         <!-- Categories Section -->
-        <section class="main-container py-32">
+        <section class="main-container py-[80px] sm:py-32">
             <h2 class="section-title">Browse By Categories</h2>
             <div class="mt-8 sm:mt-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-6">
-                <div class="p-5 py-8 sm:px-11 bg-second-main rounded-xl text-center flex flex-col items-center justify-center">
+                <div
+                    class="p-5 py-8 sm:px-11 bg-second-main rounded-xl text-center flex flex-col items-center justify-center">
                     <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
                         <img src="./images/dog-cartoon.png" alt="" class="">
                     </div>
@@ -168,6 +169,142 @@
                     </div>
                     <h3 class="mt-6 mb-2 text-primary text-xl">Rabbit</h3>
                     <p class="font-medium">3 items</p>
+                </div>
+            </div>
+        </section>
+        <!-- Trending Pets -->
+        <section class="mb-32 py-[80px] sm:py-32 bg-third-main">
+            <div class="main-container">
+                <h2 class="section-title">Trending Pet Products</h2>
+                <div class="mt-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-6">
+                    <div class="bg-second-main rounded-xl pt-12 pl-8 row-span-3 col-span-2">
+                        <div class="h-[400px] md:h-full bg-no-repeat bg-right space-y-5"
+                            style="background-image: url('./images/cute-pet-small.png');">
+                            <h3 class="text-3xl text-primary">T-Shirt For Dogs</h3>
+                            <p class="text-primary opacity-70">Discover a world of treats, toys, and essentials
+                                handpicked for </p>
+                            <button
+                                class="py-2 px-7 text-primary text-xl rounded-lg bg-white transition-all duration-300">
+                                Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-3 sm:p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/dog-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/cat-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/bird-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/fish-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/mouse-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/pet-couch.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/fish-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 flex gap-4">
+                        <div class="bg-third-main rounded-xl p-4">
+                            <img src="./images/bird-cartoon.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex items-center gap-2">
+                                <i class="ri-star-fill text-main"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h3 class="text-xs sm:text-xl">Pet Bed</h3>
+                            <p class="">$39.99</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
