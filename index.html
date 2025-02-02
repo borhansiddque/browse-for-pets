@@ -40,6 +40,7 @@
                         'main': '#FFDC26',
                         'second-main': '#F9DF8A',
                         'third-main': '#FFF9F4',
+                        'footer-bg': 'rgba(255, 220, 38, 0.50)',
                     },
                     background: {
 
@@ -309,10 +310,11 @@
             </div>
         </section>
         <!-- Low Price Section -->
-        <section class="main-container pb-[80px] sm:pb-32">
+        <section class="main-container pb-80">
             <h2 class="section-title">Everyday low Price</h2>
             <div class="mt-12 flex flex-col md:flex-row gap-5">
-                <div class="pl-10 lg:pl-20 md:w-[60%] flex items-center justify-between bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
+                <div
+                    class="pl-10 lg:pl-20 md:w-[60%] flex items-center justify-between bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
                     <div class="">
                         <p class="text-primary text-xl">Under Price</p>
                         <h3 class="text-primary text-xl sm:text-[32px] my-5 leading-normal">Pet Grooming Mitt</h3>
@@ -323,7 +325,8 @@
                         <img src="./images/cute-dog-mid.png" alt="" class="w-full">
                     </div>
                 </div>
-                <div class="pl-10 pt-10 lg:pl-12 lg:pt-12 md:w-[40%] flex justify-between md:justify-normal bg-gradient-to-tl from-[#F9DF8A] to-[#FFF9F4] rounded-xl">
+                <div
+                    class="pl-10 pt-10 lg:pl-12 lg:pt-12 md:w-[40%] flex justify-between md:justify-normal bg-gradient-to-tl from-[#F9DF8A] to-[#FFF9F4] rounded-xl">
                     <div class="">
                         <h3 class="text-primary text-xl sm:text-[32px] mb-5 leading-normal">T-Shirt for Dogs</h3>
                         <h3 class="text-main text-3xl sm:text-5xl">$7.99</h3>
@@ -335,8 +338,44 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-footer-bg pb-10 md:pb-36">
+        <div class="main-container">
+            <div class="bg-third-main py-9 px-10 md:px-20 rounded-xl flex flex-col md:flex-row items-center gap-10 relative -top-48">
+                <div class="">
+                    <img src="./images/cute-pet-small.png" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-3xl md:text-[36px] text-primary">Get Pawsome News!</h2>
+                    <p class="text-xl text-primary mt-5">Exclusive training tips, ticks, product deals and more.</p>
+                    <input type="email" placeholder="Enter Email..." class="w-full p-4 my-4">
+                    <button
+                        class="py-2 px-7 text-primary text-xl rounded-lg bg-main">Register</button>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 items-center gap-10">
+                <div class="">
+                    <div class="flex items-center gap-4 mb-3">
+                        <img src="./images/logo-footer.png" alt="">
+                        <h2 class="text-2xl">Browse<span class="text-main">4</span>Pets</h2>
+                    </div>
+                    <p class="">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                </div>
+                <ul class="flex flex-col gap-4">
+                    <li><a href="" class="text-xl text-primary font-medium">Find a pet</a></li>
+                    <li><a href="" class="text-xl text-primary font-medium">Breeds</a></li>
+                    <li><a href="" class="text-xl text-primary font-medium">Contact us</a></li>
+                </ul>
+                <div class="">
+                    <h3 class="">Follow Us</h3>
+                    <div class="mt-4 flex gap-5">
+                        <a href="" class="text-3xl"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="" class="text-3xl"><i class="ri-instagram-line"></i></a>
+                        <a href="" class="text-3xl"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="" class="text-3xl"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
